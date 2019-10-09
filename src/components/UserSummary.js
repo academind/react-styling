@@ -8,7 +8,9 @@ const UserSummary = () => {
 
   return (
     <section>
-      <p>You can view the details for the user by clicking the button.</p>
+      <p style={{ color: '#aaa' }}>
+        You can view the details for the user by clicking the button.
+      </p>
       <div
         style={{
           boxShadow: '0 2px 6px rgba(0, 0, 0, 0.26)',
