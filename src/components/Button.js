@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Button.css';
+import classes from './Button.module.css';
 
 // import styled from 'styled-components';
 
@@ -24,7 +24,7 @@ import './Button.css';
 // `;
 
 const Button = props => {
-  return <button className="button" onClick={props.onClick}>{props.children}</button>
+  return <button className={classes.button} onClick={props.onClick}>{props.children}</button>
 };
 
 export default Button;
