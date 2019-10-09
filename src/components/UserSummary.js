@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 
 import UserDetails from './UserDetails';
 import Button from './Button';
+import StyledParagraph from './StyledParagraph';
 
 const UserSummary = () => {
   const [detailsVisible, setDetailsVisible] = useState(false);
 
   return (
     <section>
-      <p style={{ color: '#aaa' }}>
+      <StyledParagraph>
         You can view the details for the user by clicking the button.
-      </p>
+      </StyledParagraph>
       <div
         style={{
           boxShadow: '0 2px 6px rgba(0, 0, 0, 0.26)',
