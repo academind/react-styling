@@ -15,6 +15,7 @@ function App() {
   return (
     <StyledDiv>
       <UserSummary />
+      <button>Don't click me</button>
     </StyledDiv>
   );
 }
